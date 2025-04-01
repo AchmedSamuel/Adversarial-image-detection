@@ -4,5 +4,9 @@ Attacking techniques like fast sign gradient methods, Carlini-Wagner method and 
 
 
 # Code usage
-The notebooks
+To generate the UMAP data for both FGSM and Carlini attacks, Install the adversarial robustness toolbox, UMAP and import all required libraries as in the jupyter notebooks. 
+Load the trained CNN model. Generate the legitimate dataset via UMAP for 2D, 3D, 5D and 10D. Impliment the attack (FGSM/Carlini) to generate the malicious datasets for 2D, 3D, 5D and 10D. Then concatenate the generated ligitimate and and malicious datasets in a single .csv file.
+
+**Metrics computation:** The decision tree classifier is used in the computation of metrics, important feature rankings and rules extraction.
+
 
