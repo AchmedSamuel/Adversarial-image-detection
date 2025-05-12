@@ -1,0 +1,3 @@
+Rule,Covering,Error
+RULE 1: IF umap8 <= 5.577 THEN attack = 1,1.0,0.0
+RULE 2: IF umap8 > 5.577 THEN attack = 0,1.0,0.0
